@@ -1,0 +1,45 @@
+{
+  "project_info": {
+    "project_number": "73322489534",
+    "firebase_url": "https://apptmanager-7b421.firebaseio.com",
+    "project_id": "apptmanager-7b421",
+    "storage_bucket": "apptmanager-7b421.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:73322489534:android:838e0332a3d2068a",
+        "android_client_info": {
+          "package_name": "com.example.srishtishikhar.appointmentmanager"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "73322489534-14db3k0ibdp6r30jlslluuqmu3225dhj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBvj_YHR8Hg7s20SI0IgbKLwB9lt0xkhhQ"
+        },
+        {
+          "current_key": "AIzaSyBvj_YHR8Hg7s20SI0IgbKLwB9lt0xkhhQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
