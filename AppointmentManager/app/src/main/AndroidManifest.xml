@@ -20,7 +20,8 @@
         <activity android:name=".LoginasDoctor" />
         <activity android:name=".LoginasPatient" />
         <activity android:name=".NewDoctor" />
-        <activity android:name=".NewPatient"></activity>
+        <activity android:name=".NewPatient" />
+        <activity android:name=".DoctorHomepage"></activity>
     </application>
 
 </manifest>

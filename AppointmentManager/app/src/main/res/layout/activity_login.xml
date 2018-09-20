@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -13,7 +13,11 @@
         android:layout_height="wrap_content"
         android:text="Login As Doctor"
         tools:layout_editor_absoluteX="128dp"
-        tools:layout_editor_absoluteY="120dp" />
+        tools:layout_editor_absoluteY="120dp"
+        android:layout_marginBottom="124dp"
+        android:layout_alignBottom="@+id/button2"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="127dp" />
 
     <Button
         android:id="@+id/button2"
@@ -21,5 +25,10 @@
         android:layout_height="wrap_content"
         android:text="Login As Patient"
         tools:layout_editor_absoluteX="128dp"
-        tools:layout_editor_absoluteY="306dp" />
-</android.support.constraint.ConstraintLayout>
+        tools:layout_editor_absoluteY="120dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/button"
+        android:layout_marginStart="11dp"
+        android:layout_marginBottom="125dp" />
+
+</RelativeLayout>
